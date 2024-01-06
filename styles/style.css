@@ -15,7 +15,7 @@ body {
     font-weight: 600;
     border-radius: 5px;
     background: #FFF;
-    border:none;
+    border: none;
     padding: 20px 40px;
 }
 
@@ -44,4 +44,33 @@ body {
     color: #FFF;
     font-size: 20px;
     font-weight: 400;
+}
+
+/* Previous year section */
+#previous-year {
+    margin: 180px 180px;
+}
+
+.previous-year-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.previous-year-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.previous-year-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.previous-year-list li {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    list-style-image: url('../images/icons/check\ 1.png');
 }
